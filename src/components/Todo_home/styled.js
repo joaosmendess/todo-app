@@ -5,7 +5,7 @@ export const DivMain = styled.section `
 border: none;
 border-radius: 6px;
 height: 50%;
-max-width: 63%;
+max-width: 80%;
 min-width: 300px;
 display: flex;
 flex-direction: column;
@@ -13,7 +13,8 @@ align-items: center;
 margin: 6% 7% ;
 box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
 background-color: 	#f1f1f1;
-margin-left: 20%;
+margin-left: 10%;
+justify-content: center;
 
 
 
