@@ -5,12 +5,12 @@ export const DivMain = styled.section `
 border: none;
 border-radius: 6px;
 height: 50%;
-max-width: 60%;
-min-width: 50%;
+max-width: 63%;
+min-width: 300px;
 display: flex;
 flex-direction: column;
 align-items: center;
-margin: 5% 7% ;
+margin: 6% 7% ;
 box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
 background-color: 	#f1f1f1;
 margin-left: 20%;
@@ -38,7 +38,7 @@ justify-content:center ;
 display: flex;
 align-items: center;
 justify-content: center;
-margin-left:0;
+margin-left:10px;
 `;
 
 export const Input = styled.input ` 
@@ -51,12 +51,15 @@ width: 100%;
 
 
 
+
 `;
 
 export const DivButton = styled.div `
 display: flex;
 justify-content: space-around;
 margin: 10px;
+
+
 `;
 
 export const ButtonAdd = styled.button `
@@ -83,8 +86,8 @@ margin: ${(props) => props.margin || "20px"};
 `
 export const Item = styled.li`
   padding: 13px 10px 13px 24px;
-  max-width: 100%;
-  min-width:270px ;
+  max-width: 345px;
+  min-width:180px ;
   min-height: 50px;
   background: ${(props) => (props.checked ? "#08ff00" : "#FFFFFF")};
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -145,7 +148,8 @@ export const DivTasks = styled.div `
   justify-content: center;
   align-items: center;
   padding: 5px;
-  margin-right: 12%;
+  margin-right: 3rem ;
+  
   
   
   
